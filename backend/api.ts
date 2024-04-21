@@ -1,6 +1,8 @@
 import { db } from './firebaseConfig'
 import { collection, addDoc, getDocs } from 'firebase/firestore'
+import dotenv from 'dotenv'
 
+dotenv.config()
 interface Book {
     title: string;
     author: string;

@@ -1,8 +1,10 @@
 import { initializeApp } from 'firebase/app';
 import {getFirestore} from 'firebase/firestore';
 
+require('dotenv').config();
+
 const firebaseConfig = {
-    apiKey: "",
+    apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
     authDomain: "",
     projectID: "",
     storageBucket: "",
