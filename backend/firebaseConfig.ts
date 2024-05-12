@@ -1,6 +1,9 @@
 import { initializeApp } from 'firebase/app';
 import {getFirestore} from 'firebase/firestore';
 
+declare var require: any;
+declare var process: any;
+
 require('dotenv').config();
 
 const firebaseConfig = {
