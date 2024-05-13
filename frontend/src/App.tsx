@@ -1,5 +1,6 @@
 //import { useState } from 'react'
 import './App.css'
+import Books from './components/Books'
 import Hero from './components/Hero'
 import Navbar from './components/Navbar'
 
@@ -12,7 +13,7 @@ function App() {
         <Hero />
       </section>
       <section>
-        <h1>Section 2</h1>
+        <Books />
       </section>
      </div>
     </>
